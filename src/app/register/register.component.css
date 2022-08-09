@@ -1,0 +1,19 @@
+.card{
+    background-image: url(./vintage-clock.jpg);
+        margin-left: -593px;
+        height:367px;
+        border-radius:2px;
+        border:1px solid rgb(182, 136, 56);
+     /* background-image: url(./black-friday-spaceman-astronaut-with-alarm-clock-3d-illustration-design.jpg); */
+         margin-left: -611px;
+         margin-top: 50px;
+    }
+   .reg{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-image: url(./vintage-clock.jpg);
+   }
+   

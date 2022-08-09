@@ -1,0 +1,42 @@
+<div class="view">
+ 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <!-- <button class="btn btn-primary"routerLink="/home" style=" margin-left:850px">HOME PAGE</button> -->
+            <div class="col-5 tble">
+                <h1 style="color:red">EVENTS</h1>
+            <table class=" view_table" style=" color:rgb(28, 24, 24);">
+                <thead>
+                    <tr>
+                        <th>SI:NUM</th>
+                        <th>DATE</th>
+                        <th>EVENT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let i of events,let k=index">
+                        <th>{{k+1}}</th>
+                        <th>{{i.date}}</th>
+                        <th>{{i.event}}</th>
+                        <td><button class="btn btn-warning">EDIT</button>&nbsp;
+                            <button (click)="deleteEvent(k)" class="btn btn-danger">DELETE</button> </td>
+                    </tr>
+                
+            
+                </tbody>
+               </table>
+               <br>
+               <br>
+               <button routerLink="/home"  type="button" class="btn btn-outline-primary BTN">BACK</button>
+            </div>
+            <div class="col-3">
+               
+            </div>
+        </div>
+    </div>
+   
+</div>

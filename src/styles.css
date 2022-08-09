@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{ 
+    background-size: cover;
+
+
+
+
+    /* background-image: url(./assets/img/black-friday-spaceman-astronaut-with-alarm-clock-3d-illustration-design.jpg); */
+    /* background-repeat: no-repeat; */
+}
+
+.container{
+    height: 50%;
+    align-content: center;
+    }

@@ -1,0 +1,32 @@
+/* .card{
+    background-image: url(./);
+        margin-left: -593px;
+    } */
+    .container{
+        width: 600px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 100px; 
+        
+    }
+   
+    .home{
+        position: relative;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-image: url(./clock-gf8424720c_1920.jpg)
+    }
+    .log{
+        margin-top: 20px;
+        margin-right: 10px;
+        float: right;
+    }
+    .del{
+        margin-top: 20px;
+        margin-right: -81px;
+        float: right; 
+    }
+ 
